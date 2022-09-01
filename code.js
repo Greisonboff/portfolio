@@ -263,7 +263,7 @@ openPrintOut = () => {
         display: none;
     }
     #linkedinUrl{
-        ddisplay: inline-block !important;
+        display: inline-block !important;
     }
                 </style>`;
                 content += document.getElementsByTagName('body')[0].innerHTML,
