@@ -1,0 +1,273 @@
+body{
+    background-image: url('img/fundo.jpg');
+    margin: 0;
+}
+section{
+    background-color: snow;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    filter: brightness(0.87);
+}
+
+#main-container {
+    height: 50em;
+    margin: 5em 2em;
+}
+
+#img-profile{
+    margin-top: 15px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 15px;
+}
+
+#user-information {
+    padding: 10px 0;
+    min-width: 310px;
+    background-color:rgb(26 26 94 / 60%);
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+#user-information label,
+#language-info span,
+#user-information h3, #user-information a{
+    color: white !important;
+}
+
+#language-info span:nth-child(3) {
+    color: black;
+}
+
+#language-info {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#language-info span {
+    margin: 5px 0 5px 18%;
+}
+
+#language-info h3 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    text-align: initial;
+}
+
+#user-information li img {
+    height: 22px;
+    position: relative;
+    top: 4px;
+    left: -5px;
+}
+
+#language-description {
+    display: block;
+}
+
+#progress-bar {
+    height: 10px;
+    width: 70%;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#progress-bar-active {
+    height: 10px;
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#email label:nth-child(3) {
+    position: relative;
+    left: 22px;
+    top: 5px;
+}
+
+#user-portfolio{
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    height: 130em;
+    padding-left: 1.6em;
+    min-width: 600px;
+}
+
+#user-portfolio h1{
+    text-align: center;
+}
+
+#user-portfolio img{
+    height: 30px;
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+#user-portfolio h3{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 0.7em;
+}
+
+#user-portfolio div{
+    margin: 0 2.5em 0 3em
+}
+h4{
+    margin-bottom: 0;
+}
+
+.hiden{
+    display: none;
+}
+
+.arrow{
+    transform: rotate(90deg);
+    height: 20px !important;
+    left: 0 !important;
+}
+
+.arrow:hover{
+    height: 22px !important;
+}
+
+.arrow-container{
+    cursor: pointer;
+    text-align: center;
+    background-color: #9d9da95c;;
+    border-radius: 5px;
+    height: 22px;
+    width: 200px;
+    margin: 0 auto 5px !important;
+    border: groove silver 0.5px;
+}
+
+
+
+#licenses a{
+    color: black;
+}
+
+#licenses-hiden{
+    margin: 0 !important;
+}
+#licenses a:hover{
+    background-color:#aa91cf80;
+    font-size: 16.5px;
+}
+
+li .img-checked{
+    height: 17px !important;
+    padding-right: 5px;
+    display: inline-block;
+    transform: translateX(-6px);
+}
+footer{
+    height: 10em;
+    width: 100%;
+    background-color: #245991;
+    position: absolute;
+    top: 150em;
+    min-width: 980px;
+}
+#citation h3,#citation span{
+    font-family: papyrus;
+}
+
+#follow-me-on-linkedin{
+    height: 7em;
+    position: absolute;
+    top: 1.5em;
+    left: 8em;
+}
+
+#citation{
+    display: inline-block;
+    position: absolute;
+    right: 8em;
+    top: 3em;
+}
+
+#citation h3{
+    margin-bottom: 0px;
+}
+
+#citation span{
+    position: absolute;
+    right: 0em;
+}
+
+h1,h3,h4,span,a,p{
+    font-family: Rockwell Extra Bold;
+    line-height: 1.2;
+}
+#user-portfolio h1{
+    color: antiquewhite;
+}
+a{
+    color: blue;
+}
+#dowload{
+    display: grid !important;
+    width: 60%;
+    margin: auto;
+}
+#dowload button{
+    margin: 10px auto;
+    padding: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+#dowload button:hover{
+    font-size: 15px;
+    background-color:#ffffffbd;
+}
+#container-user{
+    min-width: 310px;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+#linkCopyDiv{
+    position: absolute;
+    left: 2.8em;
+    top: 35.2em;
+}
+#linkCopy{
+    width: 37px;
+    opacity: 0;
+}
+#share a{
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+}
+#share img{
+    width: 40px;
+    height: 40px;
+}
+#input-url{
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: default;
+}

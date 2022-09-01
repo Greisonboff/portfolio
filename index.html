@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+        <div id="main-container">
+                <div id="container-user">
+                        <div id="user-information">
+                                <img id="img-profile"
+                                        src="https://media-exp2.licdn.com/dms/image/C4E03AQG0BnoLNb-Grw/profile-displayphoto-shrink_200_200/0/1576937612693?e=1663804800&v=beta&t=B_9KGiCaZYkKtUxgHdvOrHCBHcJu4y3j9ZXcaFQTMfE">
+                                <h3>CONTATO</h3>
+                                <ul>
+                                        <li id="localization">
+                                                <img src="img/localizacao.png">
+                                                <label>Morro Reuter, RS, 93990-000</label>
+                                        </li>
+                                        <li id="phone">
+                                                <img onclick="window.open('https://api.whatsapp.com/send?phone=5551995531841','target=_blank')" style="cursor: pointer;" src="img/whatsapp.png">
+                                                <a href="https://api.whatsapp.com/send?phone=5551995531841"
+                                                        target="_blank">(51) 99323-3992</a>
+                                        </li>
+                                        <li id="email">
+                                                <img src="img/e-mail.png">
+                                                <label>greisonboff@hotmail.com</label>
+                                        </li>
+                                        <li id="linkedin" style="margin-left: 2px;">
+                                                <a href="https://www.linkedin.com/in/greison-boff/" target="_blank"><img
+                                                                src="img/linkedin-removebg-preview.png"></a>
+                                                <label><a href="https://www.linkedin.com/in/greison-boff/"
+                                                                target="_blank">Linkedin</a><label id="linkedinUrl"
+                                                                style="display: none;">linkedin.com/in/greison-boff/</label></label>
+                                        </li>
+                                </ul>
+                        </div>
+                        <div id="dowload">
+                                <button onclick="openPrintOut()">Imprimir / Dowload</button>
+                                <div id="share">
+                                        <a onclick="copy()">
+                                                <img src="img/cloud-link.png">
+                                        </a>
+                                        <div id="linkCopyDiv"><img id="linkCopy" src="img/link.png"></div>
+                                        <input id="input-url">
+
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://greisonboff.github.io/portfolio/"
+                                                target="_blank" >
+                                                <img style=" height: 30px; width: 30px; transform: translateY(-5px); " src="https://ayltoninacio.com.br/img/s/18w50.jpg">
+                                        </a>
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://greisonboff.github.io/portfolio/"
+                                                target="_blank">
+                                                <img src="img/linkedin-48.png">
+                                        </a>
+
+                                        <a href="mailto:?subject=https://greisonboff.github.io/portfolio/"
+                                                target="_blank">
+                                                <img src="img/new-e-mail.png">
+                                        </a>
+                                </div>
+
+                        </div>
+                </div>
+                <div id="user-portfolio">
+                        <h1>Greison Nicolau Böff</h1>
+                        <section>
+                                <img src="img/objetivo.png">
+                                <h3>OBJETIVO</h3>
+                                <div>
+                                        <p>
+                                                Sou um profissional em busca de desafios e desenvolvimento, quero
+                                                participar de projetos
+                                                inovadores e contribuir com o meu conhecimento para o crescimento e
+                                                melhoria efetiva dos
+                                                negócios, comprometido com os objetivos a serem desenvolvidos.
+                                        </p>
+                                </div>
+                        </section>
+                        <section class="professional-history">
+                                <img src="img/profissional.png">
+                                <h3>HISTÓRICO PROFISSIONAL</h3>
+                                <div>
+                                        <h4>Analista Google</h4>
+                                        <p>
+                                                Meta - São Leopoldo, Rio Grande do Sul, Brasil <br>
+                                                mar de 2021 - Atualmente <br>
+                                                Analise e desenvolvimento de testes A/B realizados no Google Optimize,
+                                                desenvolvimento de Tags
+                                                para Google Tag Manager, analise de dados com Google Analytics,
+                                                desenvolvimento de Dashboard com
+                                                Google Data Studio e exportação, analise e automações com Google Sheets.
+                                        </p>
+                                </div>
+                                <div class="hiden">
+                                        <h4>Operador de eletroerosão/Auxiliar de matrizaria</h4>
+                                        <p>
+                                                KSD Metais - Dois Irmãos, Rio Grande do Sul, Brasil <br>
+                                                out de 2020 - mar de 2021 · 6 meses <br>
+                                                Ferramenteiro metalurgico, operação de maquinas de eletroerosão,
+                                                retifica plana, freza,
+                                                furação, tempera, polimento e acabamento de matriz de aço para injeção
+                                                de zamac.
+                                        </p>
+                                </div>
+                                <div class="hiden">
+                                        <h4>Operador de eletro erosão/Auxiliar de matrizaria</h4>
+                                        <p>
+                                                Metalúrgica Reuter - Morro Reuter, Rio Grande do Sul, Brasil <br>
+                                                out de 2009 - mai de 2020 · 10 anos 8 meses <br>
+                                                Operação de maquinas de eletroerosão, operador de CNC, tempera de matriz
+                                                de aço para injeção de
+                                                zamac, operador
+                                                de injetora zamac matriz de aço e borracha.
+                                        </p>
+                                </div>
+                                <div>
+                                        <div class="arrow-container">
+                                                <img class="arrow arrow-off" src="img/seta.png">
+                                        </div>
+                                </div>
+                        </section>
+                        <section>
+                                <img src="img/graduation.png">
+                                <h3>FORMAÇÃO ACADÊMICA</h3>
+                                <div>
+                                        <h4>UNINTER Centro Universitário Internacional</h4>
+                                        <p>
+                                                Ensino Superior, Analise e desenvolvimento de sistemas <br>
+                                                2019 - dez de 2021
+                                        </p>
+                                </div>
+                        </section>
+                        <section>
+                                <img src="img/certificate.png">
+                                <h3>LICENÇAS E CERTIFICADOS</h3>
+                                <div id="licenses">
+                                        <h4>JavaScript</h4>
+                                        <ul>
+                                                <li><a href="https://cursos.alura.com.br/certificate/greison-boff/javascript-manipulando-dom"
+                                                                target="_blank">JavaScript: Manipulando o dom</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/greison-boff/javascript-web-paginas-dinamicas"
+                                                                target="_blank">JavaScript para web: Crie páginas
+                                                                dinâmicas</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/greison-boff/javascript-introducao"
+                                                                target="_blank">JavaScript: Primeiros passos com a
+                                                                linguagem</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/a1a19746-0023-448b-ae4a-45b1106ab8b6"
+                                                                target="_blank">JavaScript: conhecendo o Browser e
+                                                                padrões de projeto</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/1fd4ca85-8519-4995-892b-433b7edba55d"
+                                                                target="_blank">JavaScript: programando a Orientação a
+                                                                Objetos</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/550f31cd-8764-40eb-8ac0-fd18eeb6ab7d"
+                                                                target="_blank">JavaScript: programando na linguagem da
+                                                                web</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/02587b60-edfd-402f-acd9-be35484ff67d"
+                                                                target="_blank">JavaScript na Web: Manipule o DOM com
+                                                                JavaScript</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/9d63e194-b684-43ad-8ea0-804cc73de40b"
+                                                                target="_blank">JavaScript na Web: Armazenando dados no
+                                                                navegador</a></li>
+                                                <li><a href="https://gyncursos.com.br/wp-content/uploads/2022/03/11824_422426.pdf"
+                                                                target="_blank">JavaScript</a></li>
+                                        </ul>
+                                        <h4>JQuery</h4>
+                                        <ul>
+                                                <li><a href="https://cursos.alura.com.br/certificate/86d9101b-11cc-4156-b8dd-829d0b80466e"
+                                                                target="_blank">JQuery: domine a biblioteca mais popular
+                                                                do mercado parte 1</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/9af18d88-0f23-4909-a15c-76f1b0e45d80"
+                                                                target="_blank">JQuery: avance na biblioteca mais
+                                                                popular do mercado parte 2</a></li>
+                                        </ul>
+                                        <h4>HTML e CSS</h4>
+                                        <ul>
+                                                <li><a href="https://cursos.alura.com.br/certificate/greison-boff/html-css-praticando-html-css"
+                                                                target="_blank">HTML e CSS: praticando html/css</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/7c8184dd-62b8-4585-a0b9-6670ec038369"
+                                                                target="_blank">HTML5 e CSS3 parte 1: a primeira página
+                                                                da Web</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/6f93199e-38c4-4ac4-8337-3801fbd66039"
+                                                                target="_blank">HTML5 e CSS3 parte 2: posicionamento,
+                                                                listas e navegação</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/6c1e9d91-ce30-4bd1-8472-265d30a8058e"
+                                                                target="_blank">HTML5 e CSS3 parte 3: trabalhando com
+                                                                formulários e tabelas</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/cb0fb870-9ac8-4c99-98c1-cd8f2900aa01"
+                                                                target="_blank">HTML5 e CSS3 parte 4: avançando no
+                                                                CSS</a></li>
+                                        </ul>
+                                        <h4>Ferramentas Google</h4>
+                                        <ul>
+                                                <li><a href="https://cursos.alura.com.br/certificate/caad4838-bcfe-472d-91f4-c9e3bbccfc34"
+                                                                target="_blank">BigQuery: o banco de dados da Google
+                                                                para Big Data</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/3c2262e8-64cd-4c3e-9c10-9e33b0526d39"
+                                                                target="_blank">BigQuery: funções do BigQuery</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/567690c3-3203-4ea0-9b4f-eac7a3f05aaa"
+                                                                target="_blank">Google Data Studio: filtros e
+                                                                funções</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/d388688b-b8c2-4e3c-99c9-6d454d7ab09d"
+                                                                target="_blank">Google Data Studio: acessando o
+                                                                MySQL</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/5f6bdbee-50bd-498c-a48b-0fac52a42ddf"
+                                                                target="_blank">Google Data Studio: Parâmetros e Big
+                                                                Query</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/b6dc2eaa-82b4-4c0a-9875-5b7a3ab64f50"
+                                                                target="_blank">Google Data Studio: introdução à
+                                                                ferramenta</a></li>
+                                                <li><a href="https://www.udemy.com/certificate/UC-24c9f9e9-de54-4946-a7b5-14746876d207/"
+                                                                target="_blank">Domine Google Data Studio: o Curso
+                                                                Completo </a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/65c84a42-fbdb-45ba-a97d-7fa3fa3e4bd7"
+                                                                target="_blank">UX Design: criando dashboard com Data
+                                                                Studio</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/c7a23324-7b5e-4b40-b43d-e27b4b13fd2a"
+                                                                target="_blank">Web Analytics: implemente a ferramenta
+                                                                em seu site</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/c8851a23-bc8b-4f7b-ab11-1886557d2dab"
+                                                                target="_blank">Google Analytics parte 2: dimensões e
+                                                                métricas</a></li>
+                                                <li><a href="https://analytics.google.com/analytics/academy/certificate/BY1rvzCLTF-Mbf5RhJ7uWA"
+                                                                target="_blank">Google Analytics Advanced</a></li>
+                                                <li><a href="https://analytics.google.com/analytics/academy/certificate/vQkvcww_Swud4eZfuqr9DQ"
+                                                                target="_blank">Google Analytics for Beginners</a></li>
+                                                <li><a href="https://www.udemy.com/certificate/UC-ef6d66ab-2b92-4a56-8526-cbbb501d0b9b/"
+                                                                target="_blank">Google Analytics COMPLETO - Do Zero ao
+                                                                PRO</a></li>
+                                                <li><a href="https://analytics.google.com/analytics/academy/certificate/fj8SggrYRjCk744h_xYOKg"
+                                                                target="_blank">Começar a usar o Google Analytics
+                                                                360</a></li>
+                                                <li><a href="https://analytics.google.com/analytics/academy/certificate/LXL-etodTXq-3Ma4W81yUw"
+                                                                target="_blank">Google Tag Manager Fundamentals</a></li>
+                                                <li><a href="https://www.udemy.com/certificate/UC-aeadaeec-4729-4cec-a447-d0eef86e764f/"
+                                                                target="_blank">Google Tag Manager</a></li>
+                                        </ul>
+                                        <h4>Certifições complementares</h4>
+                                        <ul>
+                                                <li><a href="https://cursos.alura.com.br/certificate/greison-boff/worpress-sites-elementor"
+                                                                target="_blank">Wordpress: sites com Elementor</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/b73c64cf-9d4f-4e19-bee5-d5237becb281"
+                                                                target="_blank">Expressões regulares: capturando textos
+                                                                de forma mágica</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/3a28522b-8205-4989-ae5f-9b7a0c98a442"
+                                                                target="_blank">React: entendendo como a biblioteca
+                                                                funciona</a></li>
+                                                <li><a href="https://cursos.alura.com.br/certificate/aeede2db-6330-4087-ae30-b810f4d24bed"
+                                                                target="_blank">HTTP: Entendendo a web por baixo dos
+                                                                panos</a></li>
+                                        </ul>
+
+                        </section>
+                        <section>
+                                <img src="img/idea.png">
+                                <h3>COMPETÊNCIAS</h3>
+                                <div>
+                                        <p>
+                                                Comunicativo e focado em trazer resultados ao cliente, autonomia e
+                                                organização com as tarefas a
+                                                serem realizadas. Envolvido plenamente com os projetos, encaro os
+                                                desafios sem medir os esforços
+                                                para atingir os objetivos, com flexibilidade e capacidade de se
+                                                adaptar a mudanças.
+                                                Capaz de analisar cenários para buscar a melhor solução para
+                                                superar os desafios
+                                                propostos.
+                                                Sou um Desenvolvedor que ajuda cliente a desenvolver seus projetos para
+                                                que possam atingir os
+                                                resultados desejados.
+                                        </p>
+                                </div>
+                        </section>
+                </div>
+        </div>
+        <script type="text/javascript" src="code.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"
+                integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs"
+                crossorigin="anonymous"></script>
+</body>
+<footer>
+        <a href="https://www.linkedin.com/in/greison-boff/" target="_blank"><img id="follow-me-on-linkedin"
+                        src="img/follow-me-on-linkedin.png"></a>
+        <div id="citation">
+                <h3>A criatividade é pensar coisas novas. A inovação é fazer coisas novas.</h3><span>(Theodore
+                        Levitt)</span>
+        </div>
+</footer>
+
+</html>
